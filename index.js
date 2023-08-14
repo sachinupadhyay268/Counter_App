@@ -1,5 +1,7 @@
 const countValue = document.querySelector('#counter');
 
+console.log("hello ji")
+
 const increment = () => {
         // get the value from Ui
     let value = parseInt(countValue.innerText);
